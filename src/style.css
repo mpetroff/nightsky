@@ -1,0 +1,72 @@
+html, body {
+  margin: 0;
+  overflow: hidden;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  background: #0a0a1a;
+}
+
+#container {
+  background: #0a0a1a;
+  width: 100%;
+}
+
+h2 {
+  margin: 0;
+}
+
+.info {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#moon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+  width: 50px;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+#locationDialog {
+  position: absolute;
+  width: 250px;
+  left: -moz-calc(50% - 125px);
+  left: -webkit-calc(50% - 125px);
+  left: calc(50% - 150px);
+  top: -moz-calc(50% - 150px);
+  top: -webkit-calc(50% - 150px);
+  top: calc(50% - 150px);
+}
+
+#locationFields {
+  display: none;
+}
+
+.panel {
+  padding: 20px;
+}
+
+.black {
+  color: #000;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#nav {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  height: 50px;
+  width: 50px;
+}
